@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+		
+	<meta charset="utf-8">
+	<title>The Blog's Input</title>	
+	<link rel="stylesheet" type="text/css" href="css/blog.css" />
+	<script src='https://cdn.firebase.com/v0/firebase.js'></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/moment.js"></script>
+	<script type="text/javascript" src="js/blogpost.js"></script>
+
+</head>
+
+<body>
+	
+	<h1>The Blog's Posting Form</h1>
+	
+	<ul class="menu">
+	
+		<li> <a href="index.html">Home</a> </li>
+		<!-- <li> <a href="about.html">About</a> </li>
+		<li> <a href="contact.html">Contact</a> </li> -->
+	
+	</ul>
+	
+	<div class="postbox" id="post-div" class="container add-items">
+                
+				<p>Enter your blog's topic</p>
+               
+			   <div class="form-group">				
+					<form id="blogForm">  
+					  <div class='form-group'>
+						<input id="title" class="form-control" placeholder="Title">
+					  </div>
+					  
+					<p>Enter your blog content</P>
+					
+					  <div class='form-group'>
+						<!-- <input id="content" class="form-control" placeholder="Blog Content"> -->
+						<textarea id="content" class="form-control blogtext" placeholder="Blog Content"></textarea>
+					  </div>
+					
+					<h4 id="alert"></h4>
+					
+					<button id="add" class="btn-primary">Submit Blog</button>
+					</form>
+				</div>
+	</div>
+	
+	
+	
+	
+	
+</body>
+
+</html>

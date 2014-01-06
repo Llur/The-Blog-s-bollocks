@@ -1,0 +1,101 @@
+body
+{
+background-image: url(../img/Background1.jpg);
+background-position:220px 0px;
+background-attachment:fixed;
+text-align:center;
+}
+
+h1
+{
+font-family:"Brush Script MT", cursive;
+font-size:50px;
+color:brown;
+text-align:center;
+text-decoration:underline;
+}
+
+h2
+{
+font-family:"Brush Script MT", cursive;
+font-size:30px;
+color:brown;
+text-align:center;
+margin:50px 200px;
+}
+
+h4
+{
+color:red;
+text-align:center;
+}
+p
+{
+font-family:"Times New Roman";
+font-size:30px;
+text-align:center;
+margin: 0 100px 0 100px;
+}
+
+a
+{
+font-size:30px;
+color:#CC8888;
+}
+
+a:link {color:#CC8888;transition:.5s;}    /* unvisited link */
+a:hover {color:#DD1111;font-size:40px;transition:.5s;}   /* mouse over link */
+a:active {color:#EE6666;}  /* selected link */
+
+li
+{
+display:inline;
+}
+
+.postbox
+{
+margin-top:50px
+}
+
+.centered 
+{
+display:block;margin:0 auto;
+}
+
+.menu
+ {
+ text-align:center;
+ font-size:30px;
+ cursor:pointer;
+ padding:5px;
+ border:5px solid brown;
+ border-radius:15px;
+ margin:0 auto;
+ width: 500px;
+ height:60px;
+ list-style: none;
+ bottom:5px;
+ top:80px;
+ margin-bottom:20px;
+}
+.menu li a{font-family: 'Passion One', cursive;}
+.top
+{
+background-color:#eeedb8;
+width:100%;
+height:500;
+position:fixed;
+display:block;
+}
+
+.dog
+{
+ margin-bottom:40px;
+ margin-top:170px;
+ }
+ 
+textarea.blogtext
+ {
+  height:400px;
+  width:400px;
+ }
